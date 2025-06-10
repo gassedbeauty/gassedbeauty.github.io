@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#first-paragraph {
+    color: pink;
+    background-color: #625448;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#second-paragraph {
+    color: #c79288;
+    background-color: #625448;
+    font-size: 20px;
+    text-decoration: line-through;
+}
+
+#bold-paragraph {
+    font-weight: bold;
+    color: white;
+    background-color: #625448;
+    font-family: sans-serif;
+}
+
+#span1 {
+    color: pink;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+#span2 {
+    font-style: italic;
+    font-size: 20px;
+}
