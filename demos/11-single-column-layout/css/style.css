@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.single-column1 {
+    background-color: lightgreen;
+    width: 50%;
+    min-width: 500px;
+}
+
+.single-column2 {
+    background-color: pink;
+    width: 50%;
+    min-width: 500px;
+    margin-left: 400px;
+}

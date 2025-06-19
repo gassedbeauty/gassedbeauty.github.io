@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+/* flexbox container */
+#two-columns {
+    display: flex;
+}
+
+/* flexbox item */
+#sidebar-content {
+    background-color: pink;
+    width: 200px;
+}
+
+/* flexbox item */
+#main-content {
+    background-color: lightblue;
+    flex: 9;
+}
