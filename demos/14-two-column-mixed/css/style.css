@@ -74,6 +74,12 @@ body {
     border-radius: 12px;
 }
 
+.metube-item {
+    flex: 250px;
+    margin: 12px;
+    margin-bottom: 24px;
+}
+
 .metube-item .thumbnail-placeholder {
     background: radial-gradient(
         at top left,
@@ -82,4 +88,8 @@ body {
     );
     aspect-ratio: 16 / 9;
     border-radius: 8px;
+}
+
+.video-details {
+    color: #625448
 }
