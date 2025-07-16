@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: Bowlby One SC;
+}
+
+.bowlby-one-sc-regular {
+  font-family: "Bowlby One SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.single-column-layout {
+    background: url(../images/siva-prasaath-nD8oIydIPQo-unsplash.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: inline-block;
+    background-color: darkgreen;
+    color: white;
+    text-decoration: none;
+    padding: 100px;
+    position: relative;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+.button1 {
+    font-size: 20px;
+    display: inline-block;
+    background-color: orange;
+    color: black;
+    text-decoration: none;
+    padding: 24px;
+    position: absolute;
+    left: 30%;
+    top: 75%;
+}
+
+.button2 {
+    font-size: 20px;
+    display: inline-block;
+    background-color: orange;
+    color: black;
+    text-decoration: none;
+    padding: 24px;
+    position: absolute;
+    right: 30%;
+    top: 75%;
+}
+
+#button a {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    display: flex;
+    color: white;
+}
+
+#teams img {
+    width: 200px;
+    display: inline-block;
+}
+
+#teams {
+    display: flex;
+    justify-content: space-between;
+}
+
+#teams h3 {
+    margin-top: 15%;
+}
+
+#button :hover {
+    background-color: white;
+    color: orange;
+}
+
+#button {
+    font-size: 14px;
+    display: inline-block;
+    color: #333333;
+    text-decoration: none;
+    padding: 24px;
+    margin-top: 36px;
+    margin-right: 12px;
+    margin-left: 12px;
+    justify-content: space-between;
+}

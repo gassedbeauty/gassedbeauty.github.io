@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: Winky Rough;
+}
+
+.winky-rough {
+  font-family: "Winky Rough", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+#navbar {
+    background: linear-gradient(to bottom, lightgrey, white, lightgrey);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: red;
+    padding: 24px;
+}
+
+#navbar a:hover {
+    background: linear-gradient(to top, white, lightgrey, white);
+}
+
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+
+#hero1 {
+    background: url(../images/Photo-Nov-14-2023-11-15-24-AM.webp);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-size: cover;
+    background-position: center center;
+    height: 80vw;
+    position: relative;
+}
+
+#hero1 h2 {
+    font-size: 46px;
+    position: absolute;
+    left: 15%;
+    top: 10%;
+    color: white;
+}
+
+#hero2 {
+    background: url(../images/declan-sun-JyEN9_hn2Go-unsplash.jpg);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-size: cover;
+    background-position: center center;
+    height: 60vw;
+    position: relative;
+}
+
+#hero2 a {
+    font-size: 24px;
+    font-weight: bold;
+    display: inline-block;
+    background-color: white;
+    color: red;
+    text-decoration: none;
+    padding: 24px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 60%;
+}
+
+@media screen and (max-width: 490px) {
+    body {
+        background: red;
+    }
+    #navbar {
+        flex-direction: column;
+    }
+    #logo {
+        align-content: center;
+    }
+}
