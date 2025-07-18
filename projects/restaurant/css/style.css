@@ -148,12 +148,6 @@ body {
     flex-direction: column;
 }
 
-.card p {
-    
-}
-
-   
-
 .card a:hover {
     background-color: transparent;
     color: palevioletred;
